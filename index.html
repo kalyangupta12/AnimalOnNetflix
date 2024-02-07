@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Animal | Netflix</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+   <header>
+    <a href="#" class="logo"><img src="images/logo.png" alt="Netflix Logo"></a>
+    <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">My List</a></li>
+    </ul>
+    <div class="search">
+        <input type="text" placeholder="Search">
+        <i class='bx bx-search' id="searchicon"></i>
+    </div>
+   </header>
+   <div class="banner">
+    <img src="images/bg.jpg" alt="Animal Movie Background" class="bg">
+    <div class="content">
+        <img src="images/animal.png" alt="Animal Movie Logo" class="movieTitle">
+        <h4>
+            <span>2023</span>
+            <span><i>A</i></span>
+            <span>3hr 24m</span>
+            <span>Action</span>
+        </h4>
+        <p>
+            The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father's life.  
+        </p>
+        <span><h4>Starring:</h4><p>Ranbir Kapoor,Anil Kapoor,Bobby Deol</p></span>
+        <div class="buttons">
+            <a href="#"><i class='bx bx-play'></i>Play</a>
+            <a href="#"><i class='bx bx-plus'></i>My List</a>
+        </div>
+    </div>
+    <a class="play"><img src="images/play.png" alt="Play Trailer">Watch Trailer</a>
+   </div>
+
+   <div class="trailer">
+    <video src="videos/trailer.mp4" controls></video>
+    <img src="images/close.png" alt="Close button" class="close">
+   </div>
+   <audio id="bgm" src="songs/arjan vailly.mp3"  loop></audio>
+</body>
+</html>
